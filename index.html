@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="calculator">
+
+            <form>
+
+                <div class="screen">
+                    <input type="text" name="display" id="screen" class="display">
+                </div>
+
+                <div class="button-row">
+                    <input type="button" value="AC" id="cleanAll">
+                    <input type="button" value="C" id="clean">
+                    <input type="button" value="." id="dot" class="operation">
+                    <input type="button" value="/" id="devide" class="operation">
+                </div>
+
+                <div class="button-row">
+                    <input type="button" value="7" id="seven" class="number-button">
+                    <input type="button" value="8" id="eight" class="number-button">
+                    <input type="button" value="9" id="nine" class="number-button">
+                    <input type="button" value="*" id="multiplicate" class="operation">
+                </div>
+
+                <div class="button-row">
+                    <input type="button" value="4" id="four" class="number-button">
+                    <input type="button" value="5" id="five" class="number-button">
+                    <input type="button" value="6" id="six" class="number-button">
+                    <input type="button" value="-" id="minus" class="operation">
+                </div>
+
+                <div class="button-row">
+                    <input type="button" value="1" id="one" class="number-button">
+                    <input type="button" value="2" id="two" class="number-button">
+                    <input type="button" value="3" id="three" class="number-button">
+                    <input type="button" value="+" id="plus" class="operation">
+                </div>
+
+                <div class="button-row">
+                    <input type="button" value="0" id="zero" class="number-button">
+                    <input type="button" value="00" id="doubleZero" class="number-button">
+                    <input type="button" value="%" id="mod" id="mod">
+                    <input type="button" value="=" id="equals" class="equals">
+                </div>
+
+
+            </form>
+
+        </div>
+
+    </div>     
+    <script src="./calc.js"></script>
+
+</body>
+</html>
